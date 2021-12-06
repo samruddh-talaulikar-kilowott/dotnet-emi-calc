@@ -19,6 +19,7 @@ namespace dotnetemicalc
                 n = Convert.ToDouble(Console.ReadLine());
                 emi = sp.CalculateEmi(p, i, t, n);
                 Console.WriteLine("Monthly EMI is: " + Math.Round(emi, 2) + " INR");
+                //Console.WriteLine("Monthly EMI is: " +emi + " INR");
             }
             catch (FormatException e)
             {

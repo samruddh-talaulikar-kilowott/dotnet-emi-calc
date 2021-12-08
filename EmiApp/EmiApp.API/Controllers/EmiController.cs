@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace EmiApp.API.Controllers
 {
-    [Route("api/[controller]")]
+
     [ApiController]
     public class EmiController : ControllerBase
     {
